@@ -17,6 +17,12 @@ hugo --minify
 
 The generated site will be in `public/`.
 
+## Continuous integration
+
+GitHub Actions builds the site for every push and pull request. Pushing a tag
+also creates a `dns.icann.org-<tag>.tar.gz` artifact containing the generated
+site, available from that workflow run.
+
 
 ## Navigation
 
