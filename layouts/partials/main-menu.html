@@ -1,0 +1,17 @@
+<ul class="menu">
+  {{ range .Site.Menus.main }}
+    <li class="menu-item{{ if .HasChildren }} has-children{{ end }}">
+      <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ if .HasChildren }}
+        <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="submenu-{{ .Identifier }}">
+          <span class="visually-hidden">Show {{ .Name }} submenu</span>
+        </button>
+        <ul id="submenu-{{ .Identifier }}" class="submenu">
+          {{ range .Children }}
+            <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>

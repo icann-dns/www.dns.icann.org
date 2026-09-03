@@ -1,0 +1,123 @@
+baseURL: "https://www.dns.icann.org/"
+locale: "en-us"
+title: "ICANN DNS Engineering"
+disableKinds: ["taxonomy", "term"]
+enableRobotsTXT: true
+
+params:
+  description: "Operational information and services from ICANN DNS Engineering."
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+
+    - identifier: about
+      name: About Us
+      pageRef: /aboutus
+      weight: 20
+    - name: Contact Us
+      pageRef: /aboutus/mail
+      parent: about
+      weight: 10
+    - name: Number Resources
+      pageRef: /aboutus/nr
+      parent: about
+      weight: 20
+
+    - identifier: imrs
+      name: ICANN Managed Root Server
+      pageRef: /imrs
+      weight: 30
+    - name: IMRS Locations
+      pageRef: /imrs/locations
+      parent: imrs
+      weight: 10
+    - name: IMRS DNS-STATS
+      pageRef: /imrs/stats
+      parent: imrs
+      weight: 20
+    - name: IMRS Peering information
+      pageRef: /imrs/peering
+      parent: imrs
+      weight: 30
+    - name: Hosting IMRS in your network
+      pageRef: /imrs/host
+      parent: imrs
+      weight: 40
+    - name: FAQ hosting IMRS
+      pageRef: /imrs/faq
+      parent: imrs
+      weight: 50
+    - name: Root Servers Principles
+      pageRef: /imrs/root-servers-principles
+      parent: imrs
+      weight: 60
+    - name: IMRS Activity and Incidents Reports
+      pageRef: /imrs/reports
+      parent: imrs
+      weight: 70
+
+    - identifier: services
+      name: Services
+      pageRef: /services
+      weight: 40
+    - name: Zone transfer
+      pageRef: /services/axfr
+      parent: services
+      weight: 10
+    - name: Authoritative DNS
+      pageRef: /services/authoritative-dns
+      parent: services
+      weight: 20
+    - name: AS112
+      pageRef: /services/as112
+      parent: services
+      weight: 30
+    - name: IN-ADDR.ARPA Traffic Stats
+      pageRef: /services/inaddr-arpa
+      parent: services
+      weight: 40
+    - name: IP6.ARPA Traffic stats
+      pageRef: /services/ip6-arpa
+      parent: services
+      weight: 50
+    - name: DNSSEC for internal ICANN domains
+      pageRef: /services/dnssec
+      parent: services
+      weight: 60
+    - name: RIPE Atlas
+      pageRef: /services/ripe-atlas
+      parent: services
+      weight: 70
+    - name: NLNOG RING
+      pageRef: /services/ring
+      parent: services
+      weight: 80
+
+    - name: Scheduled Maintenance
+      pageRef: /scheduled-maintenance
+      weight: 50
+
+    - identifier: rssac
+      name: RSSAC
+      pageRef: /rssac
+      weight: 60
+    - name: RSSAC001 Response
+      pageRef: /rssac/rssac001-response
+      parent: rssac
+      weight: 10
+    - name: RSSAC002 Data
+      pageRef: /rssac/rssac002
+      parent: rssac
+      weight: 20
+    - name: RSSAC024 Response
+      pageRef: /rssac/rssac024-response
+      parent: rssac
+      weight: 30

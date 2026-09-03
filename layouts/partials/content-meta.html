@@ -1,0 +1,3 @@
+{{ with .Params.last_reviewed }}
+<p class="content-meta">Content owner: {{ $.Params.content_owner | default "ICANN DNS Engineering" }}. Last reviewed: {{ . }}.</p>
+{{ end }}
