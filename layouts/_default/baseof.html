@@ -14,18 +14,30 @@
   <title>{{ $pageTitle }}</title>
   <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
   <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/icann-theme.css" | relURL }}">
   <script src="{{ "js/navigation.js" | relURL }}" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
+  <div class="utility-bar">
+    <div class="wrap utility-content">
+      <a href="https://www.icann.org/">ICANN.org</a>
+      <a href="https://www.icann.org/en/data-protection">Data protection</a>
+      <a href="/aboutus/mail/">Contact DNS Engineering</a>
+    </div>
+  </div>
   <div class="wrap masthead">
     <a class="brand" href="{{ "/" | relURL }}">
       <img src="{{ "media/uploads/2012/03/logo-greyscale-94x94.png" | relURL }}" alt="ICANN">
       <span>ICANN DNS Engineering</span>
     </a>
   </div>
-  <nav class="main-nav" aria-label="Main navigation"><div class="wrap">
+  <input id="main-menu-toggle" class="main-menu-toggle" type="checkbox">
+  <div class="mobile-menu-bar"><div class="wrap">
+    <label for="main-menu-toggle">Menu</label>
+  </div></div>
+  <nav id="site-navigation" class="main-nav" aria-label="Main navigation"><div class="wrap">
     {{ partial "main-menu.html" . }}
   </div></nav>
 </header>
@@ -43,7 +55,7 @@
       <a href="https://www.icann.org/privacy/cookies">Cookies Policy</a>
       <a href="https://www.icann.org/privacy/policy">Privacy Policy</a>
     </nav>
-    <p class="footer-copyright">&copy; {{ now.Year }} ICANN DNS Engineering</p>
+    <p class="footer-copyright">&copy; {{ now.Year }} Internet Corporation for Assigned Names and Numbers</p>
   </div>
 </footer>
 </body>

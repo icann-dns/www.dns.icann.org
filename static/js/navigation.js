@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+const initializeNavigation = () => {
   const menuItems = document.querySelectorAll(".has-children");
 
   for (const menuItem of menuItems) {
@@ -17,4 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-});
+};
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeNavigation);
+} else {
+  initializeNavigation();
+}
