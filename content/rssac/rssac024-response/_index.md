@@ -6,7 +6,7 @@ title: "RSSAC024 Response"
 
 The [Root Server System Advisory Committee](https://www.icann.org/groups/rssac) has developed [RSSAC024](https://www.icann.org/en/system/files/files/rssac-024-04nov16-en.pdf) to document the Key Technical Elements of Potential [Root Server Operators](http://www.root-servers.org).
 
-This page describes how [ICANN](/) meets the service and technical key element expectations for the [ICANN Managed Root Server service](/imrs) it operates. This is a living web page and it is reviewed and updated as and when ICANN reviews and improves the processes and tools it uses to provide the ICANN Managed Root Server service and at least twice a year.
+This page describes how [ICANN](/) meets the service and technical key element expectations for the [L-Root service](/lroot/) it operates. This is a living web page and it is reviewed and updated as and when ICANN reviews and improves the processes and tools it uses to provide the L-Root service and at least twice a year.
 
 #### How ICANN stands within RSSAC024 requirements
 
@@ -48,7 +48,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.2.3** | ICANN Managed Root Server infrastructure is RFC7720 compliant with regards to protocol availability and delivery. Per RSSAC002 ICANN publishes all pertinent data pertaining to root zone performance and propagation. <http://stats.dns.icann.org/rssac/> |
+| **3.2.3** | L-Root infrastructure is RFC7720 compliant with regards to protocol availability and delivery. Per RSSAC002 ICANN publishes all pertinent data pertaining to root zone performance and propagation. <http://stats.dns.icann.org/rssac/> |
 
 #### 3.3.1 DNS Operational Experience
 
@@ -88,7 +88,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.3.5** | ICANN Managed Root Server address space can be checked in a number of ways, we use the following services  - <https://bgpmon.net/> - <https://www.radb.net/members/global/> - <https://radar.qrator.net/as20144> |
+| **3.3.5** | L-Root address space can be checked in a number of ways, we use the following services  - <https://bgpmon.net/> - <https://www.radb.net/members/global/> - <https://radar.qrator.net/as20144> |
 
 #### 3.3.6 Peering Data
 
@@ -96,7 +96,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.3.6** | ICANN maintains up to date peering records in:  - <https://www.peeringdb.com/asn/20144> - </imrs/peering/> |
+| **3.3.6** | ICANN maintains up to date peering records in:  - <https://www.peeringdb.com/asn/20144> - </lroot/peering/> |
 
 #### 3.3.7 Address Registries
 
@@ -112,7 +112,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.3.8** | ICANN has an internal zone distribution system comprised of  two independent distribution servers in each of two geographically separate sites to update the ICANN Managed Root Server instances. Both KNOT and NSD are used in each site for diversity. |
+| **3.3.8** | ICANN has an internal zone distribution system comprised of  two independent distribution servers in each of two geographically separate sites to update the L-Root instances. Both KNOT and NSD are used in each site for diversity. |
 
 #### 3.4.1 Geographic Diversity
 
@@ -120,7 +120,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.4.1** | ICANN uses IP anycast and has nodes on all populated continents. </imrs/locations/> |
+| **3.4.1** | ICANN uses IP anycast and has nodes on all populated continents. </lroot/locations/> |
 
 #### 3.4.2 Network Provider Diversity
 
@@ -168,7 +168,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.4.7** | ICANN Managed Root Server operator staff are all capable of managing each aspect of the Root server infrastructure. Skills are distributed across the team and the team is geographically and time zone separated to avoid regional natural disasters or outages. |
+| **3.4.7** | L-Root operator staff are all capable of managing each aspect of the Root server infrastructure. Skills are distributed across the team and the team is geographically and time zone separated to avoid regional natural disasters or outages. |
 
 #### 3.4.8 Access Segregation
 
@@ -176,7 +176,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.4.8** | Access to ICANN Managed Root Server instances is restricted to the DNS Engineering team. Local operators have physical access to hosted root servers, but no shell access. |
+| **3.4.8** | Access to L-Root instances is restricted to the DNS Engineering team. Local operators have physical access to hosted root servers, but no shell access. |
 
 #### 3.5.1 Maintenance Procedures
 
@@ -184,7 +184,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.5.1** | Access to ICANN roo  DNS Engineering is responsible for the RSO function at ICANN. ICANN DNS Engineering has two posted recurring maintenance windows for routine work. [https://dns.icann.org/scheduled-maintenance/](/scheduled-maintenance/)A repository of maintenance procedures is held by ICANN Managed Root Server operators to cover most maintenance procedures. |
+| **3.5.1** | Access to ICANN roo  DNS Engineering is responsible for the RSO function at ICANN. ICANN DNS Engineering has two posted recurring maintenance windows for routine work. [https://dns.icann.org/scheduled-maintenance/](/scheduled-maintenance/)A repository of maintenance procedures is held by L-Root operators to cover most maintenance procedures. |
 
 #### 3.5.2 Emergency and Attack Recovery
 
@@ -224,7 +224,7 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.6.1** | ICANN keeps and publishes up to date metrics on all its managed root servers as long as it doesn’t impact the core operation of responding to DNS queries  - </imrs/stats/> (Using [DNS-STATS](http://dns-stats.org/)) - [stats.dns.icann.org](http://stats.dns.icann.org/) - [RSSAC-002 data](http://stats.dns.icann.org/rssac/) |
+| **3.6.1** | ICANN keeps and publishes up to date metrics on all its managed root servers as long as it doesn’t impact the core operation of responding to DNS queries  - </lroot/stats/> (Using [DNS-STATS](http://dns-stats.org/)) - [stats.dns.icann.org](http://stats.dns.icann.org/) - [RSSAC-002 data](http://stats.dns.icann.org/rssac/) |
 
 #### 3.6.2 Sample “x.root-servers.org” Web Page
 
@@ -232,4 +232,4 @@ This page describes how [ICANN](/) meets the service and technical key element e
 
 |  |  |
 | --- | --- |
-| **3.6.2** | ICANN maintains the content of [l.root-servers.org](http://l.root-servers.org) which redirects to the ICANN DNS Engineering website and it Root-Server location [https://dns.icann.org/imrs/](/imrs) |
+| **3.6.2** | ICANN maintains the content of [l.root-servers.org](http://l.root-servers.org), which redirects to the ICANN DNS Engineering website and its L-Root location [https://dns.icann.org/lroot/](https://dns.icann.org/lroot/). |

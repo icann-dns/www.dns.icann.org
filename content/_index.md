@@ -7,7 +7,7 @@ Welcome to *ICANN DNS Engineering website*
 
 ICANN DNS Engineering Team is responsible for
 
-- All the operations of the [ICANN Managed Root Server](/imrs) (**IMRS**), part of the [Root Name Server System](http://root-servers.org)
+- All the operations of the [L-Root](/lroot/) part of the [Root Name Server System](http://root-servers.org)
 - ICANN DNS domain name portfolio
 - DNSSEC infrastructure for ICANN Managed domains
 - Operations of ICANN [authoritative](/services/authoritative-dns/) DNS Servers

@@ -8,7 +8,7 @@ This stable and regularly (weekly) updated report is provided in response to the
 
 Additional guidance as to the motivations for this report can be found in the documents “[Root Zone Scaling Measurements at L-Root](http://www.icann.org/en/news/announcements/announcement-3-07dec12-en.htm)” and “*[Report: Impact on Root Server Operations and Provisioning Due to New gTLDs](http://www.icann.org/en/news/announcements/announcement-27jun12-en.htm)“*.
 
-The trend of query statistics from July 2012, as observed at [IMRS](/imrs/), can be reviewed using the interactive tool [DNS-STATS](http://stats.dns.icann.org "ICANN DNS-STATS"). This tool allows in depth review of many DNS protocol components, and DNS query trends based on both geographical region as well as individual instances of [IMRS](/imrs/) or collections of IMRS instances.
+The trend of query statistics from July 2012, as observed at [L-Root](/lroot/), can be reviewed using the interactive tool [DNS-STATS](http://stats.dns.icann.org "ICANN DNS-STATS"). This tool allows in depth review of many DNS protocol components, and DNS query trends based on both geographical region as well as individual instances of [L-Root](/lroot/) or collections of L-Root instances.
 
 Data used for this report, Root Zone Scaling Report – Root Zone, dates back to June 1999.
 

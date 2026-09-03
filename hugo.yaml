@@ -31,37 +31,37 @@ menus:
       parent: about
       weight: 20
 
-    - identifier: imrs
-      name: ICANN Managed Root Server
-      pageRef: /imrs
+    - identifier: lroot
+      name: L-Root
+      pageRef: /lroot
       weight: 30
-    - name: IMRS Locations
-      pageRef: /imrs/locations
-      parent: imrs
+    - name: L-Root Locations
+      pageRef: /lroot/locations
+      parent: lroot
       weight: 10
-    - name: IMRS DNS-STATS
-      pageRef: /imrs/stats
-      parent: imrs
+    - name: L-Root DNS-STATS
+      pageRef: /lroot/stats
+      parent: lroot
       weight: 20
-    - name: IMRS Peering information
-      pageRef: /imrs/peering
-      parent: imrs
+    - name: L-Root Peering information
+      pageRef: /lroot/peering
+      parent: lroot
       weight: 30
-    - name: Hosting IMRS in your network
-      pageRef: /imrs/host
-      parent: imrs
+    - name: Hosting L-Root in your network
+      pageRef: /lroot/host
+      parent: lroot
       weight: 40
-    - name: FAQ hosting IMRS
-      pageRef: /imrs/faq
-      parent: imrs
+    - name: FAQ hosting L-Root
+      pageRef: /lroot/faq
+      parent: lroot
       weight: 50
     - name: Root Servers Principles
-      pageRef: /imrs/root-servers-principles
-      parent: imrs
+      pageRef: /lroot/root-servers-principles
+      parent: lroot
       weight: 60
-    - name: IMRS Activity and Incidents Reports
-      pageRef: /imrs/reports
-      parent: imrs
+    - name: L-Root Activity and Incidents Reports
+      pageRef: /lroot/reports
+      parent: lroot
       weight: 70
 
     - identifier: services

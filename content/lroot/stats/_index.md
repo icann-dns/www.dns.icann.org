@@ -1,5 +1,7 @@
 ---
-title: "IMRS DNS-STATS"
+title: L-Root DNS-STATS
+aliases:
+- /imrs/stats/
 ---
 
 [DNS-STATS](http://stats.dns.icann.org) is ICANN’s next generation of DNS analysis, capture and visualization [software](http://dns-stats.org/).

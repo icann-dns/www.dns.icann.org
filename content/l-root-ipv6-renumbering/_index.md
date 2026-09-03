@@ -1,8 +1,8 @@
 ---
-title: "ICANN Managed Root Server IPv6 Renumbering MAR-2016"
+title: "L-Root IPv6 Renumbering MAR-2016"
 ---
 
-ICANN Managed Root Server has requested the IPv6 renumbering from the current address **2001:500:3::42** to **2001:500:9f::42**.
+L-Root has requested the IPv6 renumbering from the current address **2001:500:3::42** to **2001:500:9f::42**.
 
 Currently both IPv6 addresses, new and old, are configured on our production environment, and we have done extensive testing to ensure it is working properly.
 

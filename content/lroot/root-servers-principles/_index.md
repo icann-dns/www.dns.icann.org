@@ -1,5 +1,7 @@
 ---
-title: "Root Servers Principles"
+title: Root Servers Principles
+aliases:
+- /imrs/root-servers-principles/
 ---
 
 Core principles for the *DNS Root Server System* have been identified in [RSSAC037 document](https://www.icann.org/en/system/files/files/rssac-037-15jun18-en.pdf), as follows:
@@ -16,6 +18,6 @@ Core principles for the *DNS Root Server System* have been identified in [RSSAC
 10. RSOs must be autonomous and independent.
 11. RSOs must be neutral and impartial
 
-[ICANN Root Managed Root Server (IRMS)](/imrs) **follows and support those principles in all of its core functions.**
+[L-Root](/lroot/) **follows and supports those principles in all of its core functions.**
 
 For more information, please visit the [Root-Servers Technical Operations website](http://root-servers.org) or the [Root Server System Advisory Committee (RSSAC) website](https://www.icann.org/groups/rssac).

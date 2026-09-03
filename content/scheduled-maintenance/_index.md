@@ -2,7 +2,7 @@
 title: "Scheduled Maintenance"
 ---
 
-*ICANN DNS Engineering* has two regular scheduled maintenance windows for the ICANN Managed Root Server ([IMRS](/imrs)). Regular scheduled maintenance is planned and executed to avoid disrupting the delivery of service for the Root Server Managed by ICANN.
+*ICANN DNS Engineering* has two regular scheduled maintenance windows for L-Root. Regular scheduled maintenance is planned and executed to avoid disrupting the delivery of service for the Root Server managed by ICANN.
 
 | Day | UTC Time |
 | --- | --- |
